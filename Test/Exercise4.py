@@ -12,6 +12,7 @@ try:
     TranslateTextArea = FireFox_driver.find_element_by_xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz[1]/span/span/div/textarea")
     TranslateTextArea.send_keys("שלח את זה")
     FireFox_driver.close()
+    print("This change is done on master")
 
 except BaseException as BE:
     print(repr(BE))
